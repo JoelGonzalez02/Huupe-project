@@ -1,0 +1,22 @@
+{
+  "people": [
+    {
+      "name": "Alice",
+      "State_1": "Apple",
+      "State_2": "Cherry",
+      "State_3": "Dates"
+    },
+    {
+      "name": "Bob",
+      "State_1": "Banana",
+      "State_2": "Plumb",
+      "State_3": "Clementine"
+    },
+    {
+      "name": "Eve",
+      "State_1": "Grapes",
+      "State_2": "Apricots",
+      "State_3": "Grapefruit"
+    }
+  ]
+}
