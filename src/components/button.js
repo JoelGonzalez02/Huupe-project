@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 const ButtonContainer = styled.div(() => ({
   width: "100vw",
   display: "flex",
-  justifyContent: "center",
+  justifyContent: "flex-end",
   marginTop: "20px",
 }));
 
@@ -16,7 +16,7 @@ const ViewMoreButton = styled.button(() => ({
   borderTopRightRadius: "0px",
   borderBottomRightRadius: "15px",
   borderTopLeftRadius: "15px",
-  marginTop: "20px",
+  margin: "20px 50px 0 0",
   cursor: "pointer",
   fontSize: "17px",
   border: "none",
@@ -25,6 +25,7 @@ const ViewMoreButton = styled.button(() => ({
   ":hover": {
     backgroundColor: "violet",
     transform: "scale(1.02)",
+    border: "1px solid black",
   },
 }));
 
